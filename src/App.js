@@ -6,6 +6,7 @@ import Destinations from './pages/Destinations';
 import Gallery from './pages/Gallery';
 import ContactUs from './pages/ContactUs';
 import PulauTidung from './pages/PulauTidung';
+import PulauBidadari from './pages/PulauBidadari';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/pulau-tidung" element={<PulauTidung />} />
+        <Route path="/pulau-bidadari" element={<PulauBidadari />} />
       </Routes>
     </Router>
   );

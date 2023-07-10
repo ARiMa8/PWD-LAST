@@ -53,7 +53,7 @@ const Destinations = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             nextSlide();
-        }, 10000);
+        }, 5000);
 
         return () => {
             clearInterval(interval);
@@ -187,18 +187,20 @@ const Destinations = () => {
                         <p className="mt-4 text-2xl text-center font-Paytone">Pulau Tidung</p>
                     </div>
                     <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
+                    <Link to="/pulau-bidadari">
                         <img
                             style={{ width: '520px', height: '420px', flexShrink: 0, borderRadius: '20px' }}
                             src="https://cdn.discordapp.com/attachments/1086315786446061711/1127535215544373329/pulau-bidadari_1.jpg"
                             alt="A-T1-2"
                         />
+                        </Link>
                         <p className="mt-4 text-2xl text-center font-Paytone">Pulau Bidadari</p>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
 
             </div>
-            <footer className="bg-blue-600 py-8 w-full h-full">
+            <footer className="bg-slate-600 py-8 w-full h-full">
                 <div className="container mx-auto text-center text-black">
                     <h1 className="text-lg font-Paytone">"So, Is There Anything That Makes You Interested?"</h1>
                 </div>

@@ -137,8 +137,8 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <footer className="bg-blue-600 py-8 w-full">
-        <div className="container mx-auto text-center text-black font-Poppins font-bold">
+      <footer className="bg-slate-600 py-8 w-full">
+        <div className="container mx-auto text-center text-white font-Poppins font-bold">
           <h1 className="text-lg">"Your Smile Is The Greatest Joy For Us."</h1>
         </div>
       </footer>
