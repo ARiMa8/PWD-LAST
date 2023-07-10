@@ -4,7 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Destinations from './pages/Destinations';
 import Gallery from './pages/Gallery';
-import ContactUs from './pages/ContactUs.js';
+import ContactUs from './pages/ContactUs';
+import PulauTidung from './pages/PulauTidung';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/pulau-tidung" element={<PulauTidung />} />
       </Routes>
     </Router>
   );

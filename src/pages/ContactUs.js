@@ -89,13 +89,13 @@ const ContactUs = () => {
             </div>
             <h3 className="text-lg font-bold">Syifa Azzahirah</h3>
             <div className="flex items-center mt-4">
-              <a href="https://wa.me/+6281299416815" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+6281299416816" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.discordapp.com/attachments/1127147313048072213/1127165470257197106/WAaaa.png" alt="WhatsApp" className="w-6 h-6 mr-2" />
               </a>
-              <p>+62 812-9941-6815</p>
+              <p>+62 812-9941-6816</p>
             </div>
             <div className="flex items-center mt-4">
-              <a href="azzahirahsyifa1@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:azzahirahsyifa1@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.discordapp.com/attachments/1127147313048072213/1127165558631186452/Gmailllll.PNG" alt="Instagram" className="w-6 h-6 mr-2" />
               </a>
               <p>azzahirahsyifa1@gmail.com</p>
@@ -116,13 +116,13 @@ const ContactUs = () => {
             </div>
             <h3 className="text-lg font-bold">Andi Rizki Mahesa</h3>
             <div className="flex items-center mt-4">
-              <a href="https://wa.me/+6281384284306" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+6281384284308" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.discordapp.com/attachments/1127147313048072213/1127165470257197106/WAaaa.png" alt="WhatsApp" className="w-6 h-6 mr-2" />
               </a>
-              <p>+62 813-8428-4306</p>
+              <p>+62 813-8428-4308</p>
             </div>
             <div className="flex items-center mt-4">
-              <a href="andimahesa100@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:andimahesa100@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.discordapp.com/attachments/1127147313048072213/1127165558631186452/Gmailllll.PNG" alt="Instagram" className="w-6 h-6 mr-2" />
               </a>
               <p>andimahesa100@gmail.com</p>
