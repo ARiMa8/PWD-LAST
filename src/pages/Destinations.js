@@ -205,9 +205,13 @@ const Destinations = () => {
             </div>
             <footer className="bg-slate-600 py-8 w-full h-full">
                 <div className="container mx-auto text-center text-white">
-                    <h1 className="text-lg font-Paytone">"So, Is There Anything That Makes You Interested?"</h1>
+                    <h1 className="text-lg font-Paytone">"© 2023 Wisata Pulau Seribu | All Right Reserved"</h1>
                 </div>
             </footer>
+            <div className='w-10 h-10 bg-slate-800 rounded-full flex fixed bottom-5 right-2 cursor-pointer'>
+                <a href='#' className='text-xl m-auto'>🔝</a>
+            </div>
+
         </div>
 
     );

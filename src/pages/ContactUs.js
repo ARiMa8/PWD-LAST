@@ -80,6 +80,7 @@ const ContactUs = () => {
       </div>
 
       <br></br><br></br>
+
       <h1 className="font-Poppins text-4xl font-bold">OUR CONTACTS</h1>
       <div className="w-full mt-8 flex justify-center items-center mr-2 ml-2">
         <div className="bg-sky-300 border p-8 mr-10 border-blue-500">
@@ -139,10 +140,12 @@ const ContactUs = () => {
 
       <footer className="bg-slate-600 py-8 w-full">
         <div className="container mx-auto text-center text-white font-Poppins font-bold">
-          <h1 className="text-lg">"Your Smile Is The Greatest Joy For Us."</h1>
+          <h1 className="text-lg">"© 2023 Wisata Pulau Seribu | All Right Reserved"</h1>
         </div>
       </footer>
-
+      <div className='w-10 h-10 bg-slate-800 rounded-full flex fixed bottom-5 right-2 cursor-pointer'>
+        <a href='#' className='text-xl m-auto'>🔝</a>
+      </div>
     </div>
   );
 };
