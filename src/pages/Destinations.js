@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import carouselVid from './assets/videocarousel.mp4'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
+import './style.css';
 
 const Destinations = () => {
     const slides = [
@@ -105,19 +106,23 @@ const Destinations = () => {
                     </div>
                     <div className='flex justify-between'>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-2/6 max-h-full mx-auto flex items-center flex-col pb-8 pt-4">
-                            <img
-                                style={{ width: '407px', height: '371px', flexShrink: 0, borderRadius: '20px' }}
-                                src="https://cdn.discordapp.com/attachments/1086315786446061711/1127276186536517702/eggy-febryano-T5lflxzlfNI-unsplash.jpg"
-                                alt="A-T1-1"
-                            />
+                            <div className='thum'>
+                                <img
+                                    style={{ width: '407px', height: '371px', flexShrink: 0, borderRadius: '20px' }}
+                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127276186536517702/eggy-febryano-T5lflxzlfNI-unsplash.jpg"
+                                    alt="A-T1-1"
+                                />
+                            </div>
                             <p className="mt-6 text-center font-Paytone text-2xl">Pulau Tidung</p>
                         </div>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-2/6 max-h-full mx-auto flex items-center flex-col pb-8 pt-4">
-                            <img
-                                style={{ width: '407px', height: '371px', flexShrink: 0, borderRadius: '20px' }}
-                                src="https://cdn.discordapp.com/attachments/1086315786446061711/1127467579582193714/pulau6.png"
-                                alt="A-T1-2"
-                            />
+                            <div className='thum'>
+                                <img
+                                    style={{ width: '407px', height: '371px', flexShrink: 0, borderRadius: '20px' }}
+                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127467579582193714/pulau6.png"
+                                    alt="A-T1-2"
+                                />
+                            </div>
                             <p className="mt-6 text-center font-Paytone text-2xl">Pulau Macan</p>
                         </div>
                     </div>
@@ -126,27 +131,33 @@ const Destinations = () => {
 
                     <div className='flex justify-between'>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
-                            <img
-                                style={{ width: '320px', height: '264px', flexShrink: 0, borderRadius: '20px' }}
-                                src="https://cdn.discordapp.com/attachments/1086315786446061711/1127532889664397342/water-spot-pulau-pari.jpg"
-                                alt="A-T1-1"
-                            />
+                            <div className='thum'>
+                                <img
+                                    style={{ width: '320px', height: '264px', flexShrink: 0, borderRadius: '20px' }}
+                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127532889664397342/water-spot-pulau-pari.jpg"
+                                    alt="A-T1-1"
+                                />
+                            </div>
                             <p className="mt-4 text-center font-Paytone text-xl">Pulau Pari</p>
                         </div>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
-                            <img
-                                style={{ width: '320px', height: '264px', flexShrink: 0, borderRadius: '20px' }}
-                                src="https://cdn.discordapp.com/attachments/1086315786446061711/1127532906315796521/alam-bawah-laut-pulau-harapan.jpg"
-                                alt="A-T1-2"
-                            />
+                            <div className='thum'>
+                                <img
+                                    style={{ width: '320px', height: '264px', flexShrink: 0, borderRadius: '20px' }}
+                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127532906315796521/alam-bawah-laut-pulau-harapan.jpg"
+                                    alt="A-T1-2"
+                                />
+                            </div>
                             <p className="mt-4 text-center font-Paytone text-xl">Pulau Harapan</p>
                         </div>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
-                            <img
-                                style={{ width: '320px', height: '264px', flexShrink: 0, borderRadius: '20px' }}
-                                src="https://cdn.discordapp.com/attachments/1086315786446061711/1127532922115723295/pantai-pulau-pramuka-1.jpg"
-                                alt="A-T1-2"
-                            />
+                            <div className='thum'>
+                                <img
+                                    style={{ width: '320px', height: '264px', flexShrink: 0, borderRadius: '20px' }}
+                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127532922115723295/pantai-pulau-pramuka-1.jpg"
+                                    alt="A-T1-2"
+                                />
+                            </div>
                             <p className="mt-4 text-center font-Paytone text-xl">Pulau Pramuka</p>
                         </div>
                     </div>
@@ -160,11 +171,13 @@ const Destinations = () => {
                     </div>
                     <div className='flex justify-between'>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
-                            <img
-                                style={{ width: '534px', height: '593px', flexShrink: 0, borderRadius: '20px' }}
-                                src="https://cdn.discordapp.com/attachments/1086315786446061711/1127534588554661928/pulau-sepa-1.jpg"
-                                alt="A-T1-1"
-                            />
+                            <div className='thum'>
+                                <img
+                                    style={{ width: '534px', height: '593px', flexShrink: 0, borderRadius: '20px' }}
+                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127534588554661928/pulau-sepa-1.jpg"
+                                    alt="A-T1-1"
+                                />
+                            </div>
                             <p className="mt-4 text-2xl text-center font-Paytone">Pulau Sepa</p>
                         </div>
                     </div>
@@ -179,29 +192,31 @@ const Destinations = () => {
                     <div className='flex justify-between'>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
                             <Link to="/pulau-tidung">
-                                <img
-                                    style={{ width: '520px', height: '420px', flexShrink: 0, borderRadius: '20px' }}
-                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127534966956367943/pulau-tidung-1.jpg"
-                                    alt="A-T1-1"
-                                />
+                                <div className='thum'>
+                                    <img
+                                        style={{ width: '520px', height: '420px', flexShrink: 0, borderRadius: '20px' }}
+                                        src="https://cdn.discordapp.com/attachments/1086315786446061711/1127534966956367943/pulau-tidung-1.jpg"
+                                        alt="A-T1-1"
+                                    />
+                                </div>
                             </Link>
                             <p className="mt-4 text-2xl text-center font-Paytone">Pulau Tidung</p>
                         </div>
                         <div className="bg-gray-200 border rounded-2xl drop-shadow-2xl w-100% max-h-full mx-auto pb-8 pt-4 pr-2 pl-2">
                             <Link to="/pulau-bidadari">
-                                <img
-                                    style={{ width: '520px', height: '420px', flexShrink: 0, borderRadius: '20px' }}
-                                    src="https://cdn.discordapp.com/attachments/1086315786446061711/1127535215544373329/pulau-bidadari_1.jpg"
-                                    alt="A-T1-2"
-                                />
+                                <div className='thum'>
+                                    <img
+                                        style={{ width: '520px', height: '420px', flexShrink: 0, borderRadius: '20px' }}
+                                        src="https://cdn.discordapp.com/attachments/1086315786446061711/1127535215544373329/pulau-bidadari_1.jpg"
+                                        alt="A-T1-2"
+                                    />
+                                </div>
                             </Link>
                             <p className="mt-4 text-2xl text-center font-Paytone">Pulau Bidadari</p>
                         </div>
                     </div>
                     <br></br><br></br><br></br><br></br>
-
                 </div>
-
             </div>
             <footer className="bg-slate-600 py-8 w-full h-full">
                 <div className="container mx-auto text-center text-white">
@@ -211,9 +226,7 @@ const Destinations = () => {
             <div className='w-10 h-10 bg-slate-800 rounded-full flex fixed bottom-5 right-2 cursor-pointer'>
                 <a href='#' className='text-xl m-auto'>🔝</a>
             </div>
-
         </div>
-
     );
 };
 
